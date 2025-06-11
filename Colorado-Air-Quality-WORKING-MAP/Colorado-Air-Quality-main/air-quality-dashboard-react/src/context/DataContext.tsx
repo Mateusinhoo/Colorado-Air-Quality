@@ -73,19 +73,6 @@ const mockAirQualityData = {
       type: 'Feature',
       geometry: {
         type: 'Point',
-        coordinates: [-105.9378, 35.6870] // Taos (NM, for comparison)
-      },
-      properties: {
-        city: 'Taos',
-        zip: '87571',
-        AQI: 15,
-        Pollutant: 'PM2.5'
-      }
-    },
-    {
-      type: 'Feature',
-      geometry: {
-        type: 'Point',
         coordinates: [-106.8317, 39.1911] // Aspen
       },
       properties: {
